@@ -16,6 +16,7 @@ To make advancements/modifications, follow these steps:
 - Fork the repository
 - Create a new branch 
 - Make the appropriate changes in the files
+- 
 - Add changes made
 - Commit your changes
 - Push to the branch 
