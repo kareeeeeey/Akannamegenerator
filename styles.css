@@ -6,9 +6,8 @@ body {
     margin: 0;
    padding: 0;
    box-sizing: border-box;
-   height: 150;  
-}
-  
+   height: 150;
+   
 
 }
 .container-fluid {
@@ -19,6 +18,7 @@ body {
   align-items: center;
   padding: 20px;
   text-align: center;
+  
 }
 
 .col-md-7 {
