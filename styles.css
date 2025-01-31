@@ -1,5 +1,4 @@
 body {
-body {
    background: url(https://i.pinimg.com/236x/1c/76/6a/1c766a7cd06a7a34bd5dc0f199d17696.jpg) no-repeat center fixed;
    min-height: 100vh;
     background-color: grey;background-color: grey;
@@ -8,6 +7,7 @@ body {
    padding: 0;
    box-sizing: border-box;
    height: 150;  
+}
   
 
 }
