@@ -21,7 +21,7 @@ To make advancements/modifications, follow these steps:
 - Push to the branch 
 - Create a Pull Request 
 ## Want to know your Akan name?
-My Akan name is Adwoa! To find out yours, visit the web application by doing the following;
+My Akan name is Abbena! To find out yours, visit the web application by doing the following;
 1. Check that your internet connection is active.
 2. Click on this link https://kamaucynthia.github.io/akan-name-generator/. 
 3. You just found out your Akan name, cool right? Feel free to share the web application's link to your friends and family so that they can also know their Akan names!
@@ -34,3 +34,9 @@ Should you be unable to access my web application, have any recommendations or q
 
 ## To-do
 1. Make web app mobile friendly
+2. Make dates valid up until the date the website is being used (i.e reject dates that are in the future)
+3. ## license
+This project is licensed under the MIT licens. see the [LICENSE] (LICENSE.TXT) file for details.
+
+##contact
+For any questions or suggestions feel free to reach out via the projects Github repository: [Akan name generator]
