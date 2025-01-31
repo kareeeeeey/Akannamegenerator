@@ -1,0 +1,148 @@
+body {
+  
+   background-color: grey;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   height: 150;
+
+}
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  font-display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.col-md-7 {
+   padding-left: 0;
+}
+h1 {
+   font-size: 34px;
+   font-family: sans-serif;
+   text-align: center;
+   padding-top: 5%;
+   font-size: larger;
+  
+}
+p {
+  
+   font-size: 16px;
+}
+.response h6 {
+  
+   padding-left: 34%;
+   margin: 0;
+}
+.content {
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+form {
+  
+   width: 92%;
+   height: 45%;
+   padding-left: 10%;
+   padding-top: 1%;
+   padding-bottom: 5%;
+}
+.calendar {
+  
+   padding-top: 5%;
+}
+.form-group {
+
+   padding-left: 46%;
+}
+.form-group .label {
+   font-size: 16px;
+}
+.rdio {
+  
+   position: relative;
+}
+.rdio label {
+  
+   padding-left: 10px;
+   cursor: pointer;
+   font-size: 15px;
+   margin-bottom: 7px !important;
+}
+.rdio label:before {
+  
+   width: 16px;
+   height: 16px;
+   position: absolute;
+   top: 2px;
+   left: 0;
+   content: '';
+  /* makes button contents empty */
+   display: inline-block;
+   -moz-border-radius: 50px;
+   -webkit-border-radius: 50px;
+   border-radius: 50px;
+  /* makes button circular */
+   border: 1px solid rgb(126, 124, 124);
+   background: #fff;
+}
+.rdio-default input[type="radio"]:checked + label:before {
+  /* changes button border color to blue once it is selected */
+   border-color: rgb(64, 116, 212);
+}
+.rdio input[type="radio"]:checked + label::after {
+  /* edits button features once it is checked/selected */
+   content: '';
+   position: absolute;
+   top: 5px;
+   left: 3px;
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   background-color: rgb(64, 116, 212);
+   -moz-border-radius: 50px;
+   -webkit-border-radius: 50px;
+   border-radius: 50px;
+}
+.button {
+  /* positions the button */
+   padding-left: 33%;
+}
+.col-md-5 img {
+  /* edits features of the image */
+   border-radius: 10px;
+   object-fit: cover;
+   color: white;
+   padding: 0;
+   max-width: 100%;
+   height: 100%;
+}
+.container{
+  height: 100%;
+   padding: 0;
+}
+.col-md-5 {
+   padding: 0;
+}
+#error {
+  /* makes error message bold */
+   font-weight: bold;
+}
+input[type=number] {
+  /*makes color of input black */
+   color: black;
+}
+#mm {
+  /* makes month options black in color */
+   color: black;
+}
+.bottom-left {
+  /* positions copyright over image */
+   position: absolute;
+   bottom: 2%;
+   left: 35%;
+   color: white;
+}
